@@ -13,6 +13,5 @@ here an example:
     words = ['word1', 'word2', 'python']
     
     for word in words:
-    
-    	word_finder(word, path)
+        word_finder(word, path)
 
