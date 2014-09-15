@@ -6,7 +6,7 @@ How can i find some occurencys of words in a pdf file?
 
 here an example:
 
-    import canalPdf.finder import word_finder
+    import pyPdfFinder.finder import word_finder
     
     path = "files/example.pdf"
     
