@@ -3,6 +3,7 @@ pyPdfFinder
 Api created to find words at a pdf file
 
 How can i find some occurencys of words in a pdf file?
+------------------------------------------------------
 
 here an example:
 
@@ -16,6 +17,7 @@ here an example:
         word_finder(word, path)
 
 How can i rewrite some files with new context?
+----------------------------------------------
 
 here an example:
 
