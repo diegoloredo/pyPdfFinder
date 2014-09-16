@@ -5,6 +5,7 @@ Based on nscms setup.py
 """
 from distutils.core import setup
 import os
+import re
 import sys
 
 package = 'pdffinder'
@@ -18,7 +19,6 @@ reportlab==3.1.8
 
 CLASSIFIERS = [
     'Environment :: Web Environment',
-    'Framework :: pyPdf2',
     'Intended Audience :: Developers',
     'License :: OSI Approved :: BSD License',
     'Operating System :: OS Independent',
