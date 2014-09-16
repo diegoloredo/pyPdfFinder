@@ -39,7 +39,7 @@ class PdfReWriter(object):
         # read your existing PDF
         existing_pdf = PdfFileReader(file(self.path, "rb"))
         output = PdfFileWriter()
-        # add the "watermark" (which is the new pdf) on the existing page
+        # merge the new file with the existing
         page = existing_pdf.getPage(0)
         page.mergePage(new_pdf.getPage(0))
         output.addPage(page)
