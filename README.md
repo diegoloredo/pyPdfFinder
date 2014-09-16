@@ -7,14 +7,12 @@ How can i find some occurencys of words in a pdf file?
 
 here an example:
 
-    import pdffinder.finder import word_finder
-    
-    path = "files/example.pdf"
-    
-    words = ['word1', 'word2', 'python']
-    
-    for word in words:
-        word_finder(word, path)
+	>>> from pdffinder.finder import PdfFinder
+	>>> file_path = "files/somePdf.pdf"
+	>>> finder = PdfFinder(file_path)
+	>>> words = ["lorem", "ipsum", "python"]
+	>>> finder.find_words(words)
+	[{'word': 'lorem', 'pages': []}, {'word': 'ipsum', 'pages': []}, {'word': 'python', 'pages': [2, 4, 8, 9, 10, 44, 45, 46]}] 
 
 How can i rewrite some files with new context?
 ----------------------------------------------
