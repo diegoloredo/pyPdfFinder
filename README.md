@@ -36,7 +36,7 @@ This part helps you to place some words in pdf, like a name...
 	>>> writer.rewrite(context=context, font=font)
 	# Done
 
-If you having some troubles installing PIL try it
+If you are having some troubles installing PIL try it
 -------------------------------------------------
 
 	# commands for recent debian/ubuntu
