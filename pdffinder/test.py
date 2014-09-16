@@ -5,9 +5,9 @@ from finder import word_finder
 def test_pdfrewriter():
 
     # Testing PdfRewriter
-    path = "../files/template.pdf"
+    path = "../../files/template.pdf"
 
-    destination = "../files/destination.pdf"
+    destination = "../../files/destination.pdf"
 
     rewriter = PdfReWriter(path, destination)
 
@@ -32,7 +32,7 @@ def test_pdfrewriter():
 def test_word_finder():
 
     word = "python"
-    file = "../files/pnp.pdf"
+    file = "../../files/pnp.pdf"
 
     resp = word_finder(word, file)
 
