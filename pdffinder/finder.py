@@ -12,5 +12,5 @@ def word_finder(word, file):
         if word in text:
             matchs.append(i+1)
 
-    print "%s encontrado(s) nas pagina(s) %s" % (len(matchs), matchs)
+    print "%s found at pages %s" % (len(matchs), matchs)
     return matchs
