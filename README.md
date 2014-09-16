@@ -1,6 +1,6 @@
 pyPdfFinder
 ===========
-Api created to find words at an pdf file
+Api created to find words at a pdf file
 
 How can i find some occurencys of words in a pdf file?
 
