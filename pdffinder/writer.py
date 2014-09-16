@@ -12,7 +12,7 @@ class PdfReWriter(object):
         self.destination = destination
 
     """
-    Created at: 12/09/14 by: @dsloredo
+    Created at: 12/09/14 by: @diegoloredo
     This method expect an dictionary that contains the cordenates and values
     on template:
 
