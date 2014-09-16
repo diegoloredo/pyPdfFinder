@@ -12,7 +12,11 @@ here an example:
 	>>> finder = PdfFinder(file_path)
 	>>> words = ["lorem", "ipsum", "python"]
 	>>> finder.find_words(words)
-	[{'word': 'lorem', 'pages': []}, {'word': 'ipsum', 'pages': []}, {'word': 'python', 'pages': [2, 4, 8, 9, 10, 44, 45, 46]}] 
+	[
+	 {'word': 'lorem', 'pages': []},
+	 {'word': 'ipsum', 'pages': []},
+	 {'word': 'python', 'pages': [2, 4, 8, 9, 10, 44, 45, 46]}
+    ] 
 
 How can i rewrite some files with new context?
 ----------------------------------------------
