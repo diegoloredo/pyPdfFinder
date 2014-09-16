@@ -27,7 +27,7 @@ This part helps you to place some words in pdf, like a name...
 	>>> context = []
 	>>> element = {
 	>>>     'x': 100, # width position
-	>>>     'y': 500, # height posiiton
+	>>>     'y': 500, # height positon
 	>>>     'value': 'Lorem ipsum',
 	>>> }
 	>>> context.append(element)
@@ -35,6 +35,19 @@ This part helps you to place some words in pdf, like a name...
 	>>> font = {'name': 'Times-Roman', size: 11} # default
 	>>> writer.rewrite(context=context, font=font)
 	# Done
+
+If you having some troubles installing PIL try it
+-------------------------------------------------
+
+	# commands for recent debian/ubuntu
+	sudo apt-get install libjpeg-dev libfreetype6 libfreetype6-dev zlib1g-dev
+
+	for i in libjpeg.so libfreetype.so libz.so
+		do ln -s /usr/lib/x86_64-linux-gnu/$i $VIRTUAL_ENV/lib/
+	done
+	pip uninstall pil
+	pip install pil
+
 
 I'm accepting suggestions!
 
