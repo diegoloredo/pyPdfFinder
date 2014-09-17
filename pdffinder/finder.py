@@ -24,8 +24,9 @@ class PdfFinder(object):
                 # read the page i
                 page = self.reader.getPage(i)
                 text = page.extractText()
-                if word in text:
+                if word.lower() in text.lower():
                     # match word from the current page
                     matchs.append(i+1)
-            founds.append({'word': word, 'pages': matchs})
+            founds.append({'word': word, 'pages': matchs,
+                           'total': len(matchs)})
         return founds
