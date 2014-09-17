@@ -2,5 +2,4 @@
 setup.py
 pdffinder/__init__.py
 pdffinder/finder.py
-pdffinder/test.py
 pdffinder/writer.py
