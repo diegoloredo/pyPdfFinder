@@ -1,5 +1,5 @@
 Pillow==2.5.3
-PyPDF2==1.23
+PyPDF2==1.27.9
 pyPdf==1.13
 reportlab==3.1.8
 wsgiref==0.1.2
